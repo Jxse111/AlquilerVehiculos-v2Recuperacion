@@ -8,7 +8,7 @@ public enum FactoriaFuenteDatos {
 	MEMORIA {
 		
 		@Override
-		public IFuenteDatos crear() {
+		public  IFuenteDatos crear() {
 			// TODO Auto-generated method stub
 			return new FuenteDatosMemoria();
 		}

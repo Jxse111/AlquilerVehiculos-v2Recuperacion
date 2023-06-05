@@ -1,4 +1,4 @@
-package org.iesalandalus.programacion.alquilervehiculos;
+package java.org.iesalandalus.programacion.alquilervehiculos;
 
 public class MainApp {
 

@@ -1,4 +1,4 @@
-package java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio;
+package java.org.iesalandalus.programacion.alquilervehiculos.modelo.ficheros;
 	import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Vehiculo;
 import java.util.ArrayList;
 	import java.util.List;
@@ -20,19 +20,6 @@ import java.util.ArrayList;
 
 			return coleccionTurismo;
 		}
-
-		@Override
-		public int getCantidad() {
-
-			int cantidadElementos = 0;
-			for (Vehiculo vehiculo : coleccionTurismo) {
-
-				cantidadElementos++;
-			}
-
-			return cantidadElementos;
-		}
-
 		@Override
 		public void insertar(Vehiculo vehiculo) throws OperationNotSupportedException {
 

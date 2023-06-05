@@ -1,4 +1,4 @@
-package java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio;
+package java.org.iesalandalus.programacion.alquilervehiculos.modelo.ficheros;
 
 import java.time.LocalDate;
 
@@ -11,8 +11,6 @@ public interface IAlquileres {
 	List<Alquiler> get(Cliente cliente);
 
 	List<Alquiler> get(Turismo turismo);
-
-	int getCantidad();
 
 	void insertar(Alquiler alquiler) throws OperationNotSupportedException;
 

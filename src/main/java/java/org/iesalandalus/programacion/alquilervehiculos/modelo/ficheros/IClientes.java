@@ -1,4 +1,4 @@
-package java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio;
+package java.org.iesalandalus.programacion.alquilervehiculos.modelo.ficheros;
 
 import javax.naming.OperationNotSupportedException;
 

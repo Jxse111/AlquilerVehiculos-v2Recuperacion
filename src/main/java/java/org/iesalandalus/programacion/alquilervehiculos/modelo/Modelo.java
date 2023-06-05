@@ -2,10 +2,10 @@ package java.org.iesalandalus.programacion.alquilervehiculos.modelo;
 
 import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Alquiler;
 import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Vehiculo;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.IAlquileres;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.IClientes;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.IFuenteDatos;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.IVehiculos;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.ficheros.IAlquileres;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.ficheros.IClientes;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.ficheros.IFuenteDatos;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.ficheros.IVehiculos;
 import java.time.LocalDate;
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package org.iesalandalus.programacion.alquilervehiculos.controlador;
+package java.org.iesalandalus.programacion.alquilervehiculos.controlador;
 
 import java.time.LocalDate;
 import java.util.List;

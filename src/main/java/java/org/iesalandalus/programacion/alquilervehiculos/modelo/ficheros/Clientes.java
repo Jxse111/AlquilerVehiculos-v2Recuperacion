@@ -1,4 +1,4 @@
-package org.iesalandalus.programacion.alquilervehiculos.modelo.negocio;
+package java.org.iesalandalus.programacion.alquilervehiculos.modelo.ficheros;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,19 +17,6 @@ public class Clientes implements IClientes {
 	public List<Cliente> get() {
 
 		return coleccionClientes;
-	}
-
-	@Override
-	public int getCantidad() {
-
-		int cantidadElementos = 0;
-		for (Cliente cliente : coleccionClientes) {
-
-			cantidadElementos++;
-		}
-
-		return cantidadElementos;
-
 	}
 
 	@Override

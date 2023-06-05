@@ -1,4 +1,4 @@
-package org.iesalandalus.programacion.alquilervehiculos.modelo.negocio;
+package java.org.iesalandalus.programacion.alquilervehiculos.modelo.ficheros;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -52,13 +52,6 @@ public class Alquileres implements IAlquileres {
 
 		}
 		return listaNuevaTurismo;
-
-	}
-
-	@Override
-	public int getCantidad() {
-
-		return coleccionAlquileres.size();
 
 	}
 

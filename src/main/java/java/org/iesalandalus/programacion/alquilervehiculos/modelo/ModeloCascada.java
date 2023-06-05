@@ -14,7 +14,6 @@ public class ModeloCascada extends Modelo {
 		super();
 		setFuenteDatos(fuenteDatos);
 	}
-
 	@Override
 	public void insertar(Cliente cliente) throws OperationNotSupportedException {
 		getClientes().insertar(new Cliente(cliente));

@@ -20,6 +20,10 @@ public abstract class Modelo {
 	private IVehiculos vehiculos;
 	private IFuenteDatos fuenteDatos;
 
+
+    public Modelo(IFuenteDatos fuenteDatos) {
+        this.fuenteDatos = fuenteDatos;
+    }
 	protected IClientes getClientes() {
 		return clientes;
 	}

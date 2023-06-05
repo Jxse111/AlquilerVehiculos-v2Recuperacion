@@ -1,5 +1,5 @@
 package java.org.iesalandalus.programacion.alquilervehiculos.modelo.ficheros;
--
+
 import java.io.File;
 import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Autobus;
 import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Furgoneta;

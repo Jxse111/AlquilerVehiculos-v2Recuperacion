@@ -1,6 +1,6 @@
 # Tarea: Alquiler de vehículos (v2)
 ## Profesor: José Ramón Jiménez Reyes
-## Alumno:
+## Alumno:José Martínez Estrada
 
 Al cliente le ha gustado bastante la aplicación, pero nos comenta que por favor añadamos persistencia a los datos introducidos, ya que tal y como está ahora la aplicación no es funcional. Por tanto, en este **tercer sprint** añadiremos persistencia a los datos utilizando para ello ficheros XML, para lo que sustituiremos el modelo que teníamos de memoria, por un modelo de ficheros. También aprovecharemos para modificar algún detalle del que nos hemos dado cuenta:
 

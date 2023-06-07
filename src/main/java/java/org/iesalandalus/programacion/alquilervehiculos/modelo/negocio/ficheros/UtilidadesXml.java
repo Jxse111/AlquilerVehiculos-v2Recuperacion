@@ -1,4 +1,4 @@
-package java.org.iesalandalus.programacion.alquilervehiculos.modelo.ficheros;
+package java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.ficheros;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;

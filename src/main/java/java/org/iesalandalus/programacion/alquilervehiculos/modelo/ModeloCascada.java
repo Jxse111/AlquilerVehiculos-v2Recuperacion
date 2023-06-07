@@ -1,7 +1,7 @@
 package java.org.iesalandalus.programacion.alquilervehiculos.modelo;
 
 import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Vehiculo;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.ficheros.IFuenteDatos;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.IFuenteDatos;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
